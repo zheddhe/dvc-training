@@ -1,3 +1,3 @@
 #!/bin/bash
-dvc repro \
+dvc dag \
 	${@:1}
