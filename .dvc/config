@@ -4,4 +4,4 @@
     url = ../../dvc_remote
 ['remote "remote_gdrive"']
     url = gdrive://1AwphOgPRspY8betr387kSzcYTP893D7r
-    gdrive_use_service_account = true
+    gdrive_use_service_account = false
