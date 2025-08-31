@@ -1,7 +1,8 @@
 #!/bin/bash
+# en local seulement (pas de commit git)
 dvc remote modify \
 	${1:-remote_gdrive} \
-	gdrive_client_id --unset
+	--local gdrive_client_id --unset
 dvc remote modify \
 	${1:-remote_gdrive} \
-	gdrive_client_secret --unset
+	--locam gdrive_client_secret --unset

@@ -17,3 +17,4 @@ joblib
 #sys
 #json
 dvc[gdrive]
+dvc[s3]

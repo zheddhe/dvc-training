@@ -1,7 +1,10 @@
 [core]
-    remote = remote_storage
+    remote = origin
 ['remote "remote_storage"']
     url = ../../dvc_remote
 ['remote "remote_gdrive"']
     url = gdrive://1AwphOgPRspY8betr387kSzcYTP893D7r
     gdrive_use_service_account = false
+['remote "origin"']
+    url = s3://dvc
+    endpointurl = https://dagshub.com/zheddhe/dvc-training.s3
