@@ -7,4 +7,4 @@
     gdrive_use_service_account = false
 ['remote "origin"']
     url = s3://dvc
-    endpointurl = https://dagshub.com/zheddhe/dvc-training.s3
+    endpointurl = https://dagshub.com/zheddhe/template-mlops-training.s3
