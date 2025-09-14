@@ -1,0 +1,22 @@
+service: "src.service:RFService"
+description: "Random Forest Classifier Service for predicting accidents"
+labels:
+  owner: "zheddhe"
+  project: "accident_prediction"
+
+include:
+  - src/
+  - data/
+
+python:
+  packages:
+    - numpy
+    - pandas
+    - scikit-learn
+    - bentoml
+    - pydantic
+    - requests
+    - pyjwt
+
+models:
+  - accidents_rf:latest
